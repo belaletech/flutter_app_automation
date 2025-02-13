@@ -1,0 +1,38 @@
+# Ignore Python virtual environment
+venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+logs/
+*.log
+*.out
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Appium session files
+*.session
+
+# Ignore test reports
+reports/
+allure-results/
+output/
+
+# Ignore node_modules (if Appium installed via npm)
+node_modules/
+package-lock.json
+
+# Ignore environment-specific files
+.env
