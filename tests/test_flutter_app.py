@@ -12,30 +12,37 @@ options.load_capabilities(CAPS)
 driver = Remote(command_executor=APPIUM_SERVER, options=options)  # Use options instead of CAPS
 finder = FlutterFinder()
 
-# Click on the number 2 using FlutterFinder
-num2_finder = finder.by_value_key("2")  # Use `by_value_key` instead of XPath
+print("✅ Appium session started successfully!")
+
+# ✅ Click on "2"
+num2_finder = finder.by_value_key("button_2")
 num2_element = FlutterElement(driver, num2_finder)
 num2_element.click()
+print("✅ Clicked on 2")
 
-# Click on the '+' button
-plus_finder = finder.by_value_key("+")  
+# ✅ Click on "+"
+plus_finder = finder.by_value_key("button_+")
 plus_element = FlutterElement(driver, plus_finder)
 plus_element.click()
+print("✅ Clicked on +")
 
-# Click on the number 3
-num3_finder = finder.by_value_key("3")  
+# ✅ Click on "3"
+num3_finder = finder.by_value_key("button_3")
 num3_element = FlutterElement(driver, num3_finder)
 num3_element.click()
+print("✅ Clicked on 3")
 
-# Click on the '=' button to get the result
-equals_finder = finder.by_value_key("=")  
+# ✅ Click on "="
+equals_finder = finder.by_value_key("button_=")
 equals_element = FlutterElement(driver, equals_finder)
 equals_element.click()
+print("✅ Clicked on =")
 
-# Get the result displayed on the calculator
-result_finder = finder.by_value_key("result")  # Assuming your result element has a key like "result"
+# ✅ Get the result displayed on the calculator
+result_finder = finder.by_value_key("output_text")
 result_element = FlutterElement(driver, result_finder)
-print("Calculation Result:", result_element.text)
-
-# Quit driver after execution
+result_text = result_element.text
+print(f"✅ Calculation Result: {result_text}")
 driver.quit()
+
+print("✅ Appium session closed.")
