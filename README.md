@@ -122,7 +122,7 @@ appium
 ### **5️⃣ Run the Flutter Test Script**
 Execute the test script:
 ```bash
-python -m tests.test_flutter_calculator
+python -m tests.test_flutter_app
 ```
 
 ---
@@ -164,7 +164,7 @@ This project is **open-source** under the **MIT License**.
 
 ### **✅ What’s New in This Version?**
 ✅ **Added instructions to upload the app to LambdaTest** 📤  
-✅ **Explained how to get `app ID` and insert credentials** 🔑  
-✅ **Step-by-step guide for setting up and running tests** 🚀  
+✅ **Explained how to get `app ID` and insert credentials 🔑  
+✅ Step-by-step guide for setting up and running tests 🚀  
 
 ---
