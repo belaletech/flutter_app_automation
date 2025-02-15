@@ -162,9 +162,9 @@ This project is **open-source** under the **MIT License**.
 
 ---
 
-### **✅ What’s New in This Version?**
-✅ **Added instructions to upload the app to LambdaTest** 📤  
-✅ **Explained how to get `app ID` and insert credentials 🔑  
+✅ What’s New in This Version?
+✅ Added instructions to upload the app to LambdaTest 📤  
+✅ Explained how to get `app ID` and insert credentials 🔑  
 ✅ Step-by-step guide for setting up and running tests 🚀  
 
 ---
