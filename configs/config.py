@@ -1,4 +1,10 @@
-APPIUM_SERVER = "https://belalahmad:LT_UzeFPtk5kc9Z9eQSKXiqztgW3Tkx7lUfh0phyHFXWFQjbfp@mobile-hub.lambdatest.com/wd/hub"
+import os
+
+# Retrieve credentials from environment variables
+LT_USERNAME = os.getenv("LT_USERNAME")
+LT_ACCESS_KEY = os.getenv("LT_ACCESS_KEY")
+
+APPIUM_SERVER = f"https://{LT_USERNAME}:{LT_ACCESS_KEY}@mobile-hub.lambdatest.com/wd/hub"
 
 CAPS = {
     "build": "Python Appium Calculator Test",
