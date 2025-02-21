@@ -7,7 +7,7 @@ This repository contains an **Appium-based automation framework** for testing a 
 ## 📌 Features
 ✅ Automates Flutter-based mobile apps  
 ✅ Uses `appium_flutter_finder` for element interactions  
-✅ Supports **Android & iOS**  
+✅ Supports **Android**  
 ✅ Works with **LambdaTest** cloud devices  
 ✅ Step-by-step setup instructions included  
 
@@ -58,7 +58,7 @@ Before running tests, you need to **upload your Flutter app (APK or IPA) to Lamb
 
 ### **2️⃣ Upload Your App**
 - Navigate to **App Automation** → **Upload App**
-- Upload your `.apk` (Android) or `.ipa` (iOS) file
+- Upload your `.apk` (Android) file
 - Once uploaded, **copy the `app ID`** (e.g., `lt://APP1016045521739462030652329`)
 
 ### **3️⃣ Update `config.py` with App ID and Credentials**
