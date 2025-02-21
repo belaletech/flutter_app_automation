@@ -50,7 +50,7 @@ desiredCapabilities.setCapability("automationName", "flutter");
 ---
 
 ## 📤 Upload Your App to LambdaTest
-Before running tests, you need to **upload your Flutter app (APK or IPA) to LambdaTest** and get the **app ID**.
+Before running tests, you need to **upload your Flutter app (APK) to LambdaTest** and get the **app ID**.
 
 ### **1️⃣ Sign in to LambdaTest**
 - Go to [LambdaTest](https://www.lambdatest.com/)
